@@ -3,7 +3,7 @@ import Favorites from "./Favorites";
 import Media from "./Media";
 
 
-const elemenOne = <FontAwesomeIcon icon={faMagnifyingGlass} />;
+
 
 
 
