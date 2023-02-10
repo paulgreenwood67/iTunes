@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Favorites from "./Favorites";
 import Media from "./Media";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
+
 
 const elemenOne = <FontAwesomeIcon icon={faMagnifyingGlass} />;
 
@@ -164,7 +163,7 @@ export default function AppLayout() {
 
         {/* Search Button  */}
           <button variant="primary" onClick={onSearch}>
-            {elemenOne}
+            {'Search'}
           </button>
         </form>
         <div className="music-item-wrapper"></div>
